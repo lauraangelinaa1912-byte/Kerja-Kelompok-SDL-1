@@ -1,7 +1,6 @@
 package kerkomsdl;
 
 public class KerkomSDL {
-
     public static void main(String[] args) {
        
         
@@ -14,7 +13,18 @@ public class KerkomSDL {
         for(int i = 0; i < angka.length; i++) {
             jumlah += angka[i];
         }
+        // c. Menghitung rata-rata
+        double rata = (double) jumlah / angka.length;
 
+        // Output
+        System.out.println("Isi array:");
+        for(int i = 0; i < angka.length; i++) {
+            System.out.print(angka[i] + " ");
+        }
+
+        System.out.println("\nJumlah = " + jumlah);
+        System.out.println("Rata-rata = " + rata);
+    }
     }
     
-}
+
