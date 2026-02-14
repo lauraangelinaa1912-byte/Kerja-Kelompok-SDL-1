@@ -17,13 +17,14 @@ public class KerkomSDL {
         double rata = (double) jumlah / angka.length;
 
         // Output
-        System.out.println("Isi array:");
+        System.out.println("Angka :");
         for(int i = 0; i < angka.length; i++) {
             System.out.print(angka[i] + " ");
         }
-
+        System.out.println();
         System.out.println("\nJumlah = " + jumlah);
         System.out.println("Rata-rata = " + rata);
+        System.out.println();
     }
     }
     
